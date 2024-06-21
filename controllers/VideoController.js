@@ -1,5 +1,5 @@
 const mongoose = require('mongoose');
-const Video = require('../models/videoModel'); // Adjust the path as needed
+const Video = require('../models/VideoModel'); // Adjust the path as needed
 
 // Create a new video
 const createVideo = async (req, res) => {
